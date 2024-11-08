@@ -94,8 +94,10 @@
     background-color: $surfBrandColor;
     color: $WhiteColor;
     border-radius: 4px;
+    box-shadow: $shadowXS;
     &:hover {
-      box-shadow: $shadowXS;
+      background-color: #8d1717;
+      transition: 0.5s;
     }
   }
 }
@@ -106,8 +108,10 @@
     background-color: $surfBrandColor;
     color: $WhiteColor;
     border-radius: 4px;
+    box-shadow: $shadowXS;
     &:hover {
-      box-shadow: $shadowXS;
+      background-color: #8d1717;
+      transition: 0.5s;
     }
   }
 }

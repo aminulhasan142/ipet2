@@ -95,23 +95,24 @@
     @media only screen and (max-width: 767px) {
       display: flex;
       flex-direction: column-reverse;
-      margin-top: 112px;
-      width: 310px;
+      margin-top: 90px;
+      gap: 20px;
+      width: 320px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
       padding: 40px 28px;
       display: flex;
       flex-direction: column-reverse;
+      gap: 45px;
+      margin: 60px;
     }
     .promotion_image_container {
       @media only screen and (max-width: 767px) {
-        padding: 115px 0px;
         width: 320px;
       }
 
       @media only screen and (min-width: 768px) and (max-width: 1024px) {
-        padding: 150px;
       }
     }
     .promotion_context_container {
