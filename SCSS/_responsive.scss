@@ -29,9 +29,22 @@
       font-size: 16px;
     }
   }
+  .hero_image_section {
+    @media only screen and (max-width: 767px) {
+      height: 450px;
+    }
+    .hero_image_text {
+      h1 {
+        @media only screen and (max-width: 767px) {
+          width: 320px;
+        }
+      }
+    }
+  }
   .hero_bottom_content_container {
     @media only screen and (max-width: 767px) {
       padding: 0px 16px;
+      margin-top: -35px;
     }
 
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
