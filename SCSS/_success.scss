@@ -192,6 +192,8 @@
         color: $textSecondaryColor;
         @media only screen and (max-width: 767px) {
           width: 290px;
+          font-size: 22px;
+          line-height: 32px;
         }
       }
     }
