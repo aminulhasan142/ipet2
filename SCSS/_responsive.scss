@@ -315,6 +315,14 @@
         padding: 64px 32px;
         gap: 40px;
       }
+      .about_text_container {
+        .red_button {
+          @media only screen and (max-width: 767px) {
+            width: 100%;
+            justify-content: center;
+          }
+        }
+      }
     }
     .about_item2 {
       .about_item2_text {
@@ -325,6 +333,12 @@
         @media only screen and (min-width: 768px) and (max-width: 1024px) {
           padding: 64px 32px;
           gap: 40px;
+        }
+        .red_button {
+          @media only screen and (max-width: 767px) {
+            width: 100%;
+            justify-content: center;
+          }
         }
       }
     }
