@@ -1,0 +1,145 @@
+//font
+$fontFirst: 'Roboto', serif;
+$fontSecond: 'Outfit', serif;
+$fontThird: 'Poppins', serif;
+
+//Black and white
+
+$WhiteColor: #ffffff;
+$BlackColor: #000000;
+
+// text color
+$textPrimaryColor: #27272a;
+$textSecondaryColor: #52525b;
+$textMutedColor: #a1a1aa;
+$textBrandColor: #b91c1c;
+
+//Surface Color
+
+$surfPrimaryColor: #fafafa;
+$surfSecondaryColor: #3f3f46;
+$surfBrandColor: #dc2626;
+$surfLightColor: #ffffff;
+$surfInvertColor: #f4f4f5;
+
+//Border Color
+$borderPrimaryColor: #e4e4e7;
+$borderBrandColor: #ef4444;
+$borderDarkColor: #3f3f46;
+$borderLightColor: #fafafa;
+$borderInvertColor: #e2e8f0;
+
+//shadow
+$shadowMD: 0px 24px 40px 6px rgba(30, 41, 59, 0.05);
+$shadowXS: 0px 3px 5px 0px rgba(30, 41, 59, 0.03);
+
+//normal color
+$zinc300: #d4d4d8;
+$zinc400: #a1a1aa;
+$slate50: #f8fafc;
+$slate300: #cbd5e1;
+$slate500: #64748b;
+$slate600: #475569;
+$red300: #fca5a5;
+$red500: #ef4444;
+$slate700: #334155;
+$green500: #16a34a;
+$green600: #16a34a;
+$textMuted: #a1a1aa;
+
+//button color
+$buttonRedColor: #dc2626;
+
+//font size
+$fontSizeSm: 16px;
+
+//font weight
+$fontWeightBold: 700;
+
+//Main width
+$small: 270px;
+$medium: 767px;
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  @media only screen and (min-width: $small) and (max-width: $medium) {
+    width: 96%;
+  }
+}
+
+//button
+.red_button {
+  display: flex;
+  padding: 12px 20px;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  border-radius: 4px;
+  background: $buttonRedColor;
+  color: $WhiteColor;
+
+  /* title/sm */
+  font-family: 'Roboto', serif;
+  font-size: $fontSizeSm;
+  font-style: normal;
+  font-weight: $fontWeightBold;
+  line-height: 24px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0px 3px 5px 0px rgba(222, 0, 0, 0.2);
+  }
+}
+
+//Heading Text style
+.heading_text {
+  flex: 1 0 0;
+  color: $red500;
+
+  /* Shadow Small */
+  text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.03);
+  font-family: $fontSecond;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+//Title xl
+.title_xl {
+  font-family: $fontFirst;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+//Title sm
+.title_sm {
+  font-family: $fontFirst;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+//text sm
+.text_sm {
+  font-family: $fontFirst;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+//text body base
+
+.base_text {
+  color: $textSecondaryColor;
+  font-family: $fontFirst;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
